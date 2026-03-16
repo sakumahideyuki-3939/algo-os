@@ -7,7 +7,7 @@
 - [ ] meguri React Nativeアプリ化（iOS+Android）
 
 ### 🟡 進行中
-- [ ] jinja-db 144番〜登録継続（143/166社完了）
+- [ ] jinja-db 登録継続（151/166社完了、165社リサーチ済み）
   - 既知問題: 鶴岡八幡宮・靖国神社のJSON壊れ（次回冒頭で修正）
 - [ ] IBCAキッズコスメ動画視聴ページ（🟡YouTubeアップ待ち）
   - ibca-websiteリポ内 ibca.jp/kidscosme/ に実装
@@ -16,7 +16,9 @@
 ### 🔲 未着手・待ち
 - [ ] IBCA インストラクター名刺作成
 - [ ] IBCA licensework/index.php フィルターボタンJS（講演・講習カード追加時）
-- [ ] kippo-tabi 手動作業（SNSアカウント作成・Search Console・OGP画像）
+- [ ] kippo-tabi Search Console登録+sitemap送信
+- [ ] Apple Developer D-U-N-S番号確認（2026/03/20木曜まで）
+- [ ] Instagram残り4投稿（セラミド・SPF・シミ・3級）画像作成済み
 - [ ] stemcell-b2c フォームバックエンド・メールサーバー実装
 - [ ] 柳さん待ち: EBBスライダーコピー・トップ写真3枚
 
@@ -35,6 +37,10 @@
 - [x] AlgoCosme 新EC本番稼働（22製品）
 - [x] AlgoCosme スマホハンバーガーメニュー修正（2026/03/16）
 - [x] kippo-tabi GA4測定ID本番設定（2026/03/16）全137ファイル
+- [x] IBCA X（@IBCA_beauty）開設・プロフィール設定・初投稿5本予約済み（2026/03/16）
+- [x] IBCA Instagram開設・初投稿完了・画像17枚作成済み（2026/03/16）
+- [x] GitHubトークンローテーション gh auth login（2026/03/16）
+- [x] jinja-db 5社追加 151社到達（2026/03/16）
 - [x] meguri Phase1-4完走 Web版90%（2026/03/14）
 - [x] CLAUDE.md 全7リポジトリ完了（2026/03/14）
 
