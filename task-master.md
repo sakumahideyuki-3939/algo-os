@@ -16,7 +16,7 @@
 ### 🔲 未着手・待ち
 - [ ] IBCA インストラクター名刺作成
 - [ ] IBCA licensework/index.php フィルターボタンJS（講演・講習カード追加時）
-- [ ] kippo-tabi 手動作業（SNSアカウント作成・GA4測定ID・Search Console・OGP画像）
+- [ ] kippo-tabi 手動作業（SNSアカウント作成・Search Console・OGP画像）
 - [ ] stemcell-b2c フォームバックエンド・メールサーバー実装
 - [ ] 柳さん待ち: EBBスライダーコピー・トップ写真3枚
 
@@ -34,6 +34,7 @@
 - [x] algo-inc.com 復旧完了（2026/02/23）
 - [x] AlgoCosme 新EC本番稼働（22製品）
 - [x] AlgoCosme スマホハンバーガーメニュー修正（2026/03/16）
+- [x] kippo-tabi GA4測定ID本番設定（2026/03/16）全137ファイル
 - [x] meguri Phase1-4完走 Web版90%（2026/03/14）
 - [x] CLAUDE.md 全7リポジトリ完了（2026/03/14）
 
