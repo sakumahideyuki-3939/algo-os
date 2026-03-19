@@ -1,5 +1,5 @@
 # Algo OS タスクマスター
-> 最終更新: 2026/03/16
+> 最終更新: 2026/03/20
 
 ## アクティブタスク
 
@@ -21,6 +21,26 @@
 - [ ] Instagram残り4投稿（セラミド・SPF・シミ・3級）画像作成済み
 - [ ] stemcell-b2c フォームバックエンド・メールサーバー実装
 - [ ] 柳さん待ち: EBBスライダーコピー・トップ写真3枚
+
+### 🟡 進行中（Golf Metrics OS）
+- [ ] Golf Metrics OS（golf / ゴルフトラッカー）
+  - リポジトリ: sakumahideyuki-3939/golf（Private）
+  - 技術構成: SwiftUI + watchOS + HealthKit + CloudKit
+  - 本番URL: 未定（App Store予定）
+  - 完了済み:
+    - [x] 要件定義書 v0.1（4点修正反映済み）
+    - [x] データモデル設計（Round/HoleLog/ShotLog/CourseInfo/HoleInfo）
+    - [x] 状態遷移設計（Completed状態追加済み）
+    - [x] SwiftUI実装（35ファイル/4,351行）
+    - [x] ビルド成功＋シミュレーター動作確認
+    - [x] Entitlements設定（HealthKit/App Group/CloudKit）push済み
+  - 未完了:
+    - [ ] Apple Developer Program加入（$99/年）← 全てのゲート
+    - [ ] D-U-N-S番号確認（法人登録の場合）
+    - [ ] Developer Portal設定（App ID 2件/App Group/iCloud Container）
+    - [ ] Xcode Team設定（Automatic Signing）
+    - [ ] Apple Watch実機テスト
+    - [ ] MVP：18ホール止まらず記録できること
 
 ### 💡 検討中・将来
 - [ ] meguri 課金ライン確定（チーム相談予定）
