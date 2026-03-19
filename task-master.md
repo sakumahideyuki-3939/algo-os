@@ -24,7 +24,7 @@
 
 ### 🟡 進行中（Golf Metrics OS）
 - [ ] Golf Metrics OS（golf / ゴルフトラッカー）
-  - リポジトリ: sakumahideyuki-3939/golf（Private）
+  - リポジトリ: sakumahideyuki-3939/golf-metrics-os（Private）
   - 技術構成: SwiftUI + watchOS + HealthKit + CloudKit
   - 本番URL: 未定（App Store予定）
   - 完了済み:
