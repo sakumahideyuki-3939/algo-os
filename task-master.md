@@ -1,5 +1,5 @@
 # Algo OS タスクマスター
-> 最終更新: 2026/03/20
+> 最終更新: 2026/03/20（夜）
 
 ## アクティブタスク
 
@@ -14,6 +14,9 @@
   - 手順: ①YTアップ(Algo手動)→②Claude Code実装→③テスト
 
 ### 🔲 未着手・待ち
+- [ ] algo-keiri invoice_generator.py 本実装（Claude Code）
+- [ ] 手代木データGoogleDrive整理＋フォルダ分類
+- [ ] 手代木2号RAG構築（Phase1〜）
 - [ ] IBCA インストラクター名刺作成
 - [ ] IBCA licensework/index.php フィルターボタンJS（講演・講習カード追加時）
 - [ ] kippo-tabi Search Console登録+sitemap送信
@@ -61,6 +64,13 @@
 - [x] IBCA Instagram開設・初投稿完了・画像17枚作成済み（2026/03/16）
 - [x] GitHubトークンローテーション gh auth login（2026/03/16）
 - [x] jinja-db 5社追加 151社到達（2026/03/16）
+- [x] 全サイトメールアドレス変更（2026/03/20）AlgoCosme→laboskin@ / algo-inc→devapp@ / stemcell→celllab@ / meguri特商法→devapp@　計33箇所
+- [x] さくらサーバーメールアカウント3件作成（devapp@algo-inc.com, laboskin@algo-cosme.com, celllab@algo-cosme.com）
+- [x] algo-keiriリポジトリ作成＋CLAUDE.md（2026/03/20）
+- [x] 請求書PDFジェネレーター完成（invoice_generator.py）
+- [x] クリニックマスター作成（25社）
+- [x] アルゴ経理プロジェクト（Claude.ai）セットアップ完了
+- [x] 手代木データ40GBバックアップ（Mac＋Google Drive）
 - [x] meguri Phase1-4完走 Web版90%（2026/03/14）
 - [x] CLAUDE.md 全7リポジトリ完了（2026/03/14）
 
@@ -72,6 +82,10 @@
 - 03/16: 手作業タスク（イラレ等）は「ラムに一言」で管理に乗せる
 - 03/16: 独り言→ラムが分類→task-master反映の運用を開始
 - 03/16: 仕事終わりに燃え尽きないよう、思いついた時に喋って記録する方針に
+- 03/20: contact@/info@はボット辞書攻撃の対象。独自アドレス（devapp/laboskin/celllab）に変更で迷惑メール対策
+- 03/20: 請求書運用はClaude.aiプロジェクト「アルゴ経理」で完結。GitHubは将来のメール連携用
+- 03/20: 手代木2号構想（RAG×Claude API）始動。Phase0データ保全完了
+- 03/20: task-master運用改善：完了タスクとサブタスクの粒度を揃えるルール追加
 
 ## 運用ルール
 - 朝: このファイルを確認 → ラムに貼って今日のタスク整理
