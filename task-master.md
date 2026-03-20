@@ -22,7 +22,8 @@
 - [ ] IBCA インストラクター名刺作成
 - [ ] IBCA licensework/index.php フィルターボタンJS（講演・講習カード追加時）
 - [ ] kippo-tabi Search Console登録+sitemap送信
-- [ ] Apple Developer D-U-N-S番号確認（2026/03/20木曜まで）
+- [ ] Apple Developer Program承認待ち → 承認後$99支払い → Portal設定
+- [ ] Gmail転送設定修正（devapp/laboskin/celllab）→ Developer承認後に対応
 - [ ] Instagram残り4投稿（セラミド・SPF・シミ・3級）画像作成済み
 - [ ] stemcell-b2c フォームバックエンド・メールサーバー実装
 - [ ] 柳さん待ち: EBBスライダーコピー・トップ写真3枚
@@ -65,6 +66,7 @@
 - [x] IBCA X（@IBCA_beauty）開設・プロフィール設定・初投稿5本予約済み（2026/03/16）
 - [x] IBCA Instagram開設・初投稿完了・画像17枚作成済み（2026/03/16）
 - [x] GitHubトークンローテーション gh auth login（2026/03/16）
+- [x] Apple Developer Program法人申請完了（2026/03/20）登録ID:4N2MY837MF、承認待ち
 - [x] jinja-db 166社登録完了（2026/03/20）
 - [x] jinja-db JSON修復（鶴岡八幡宮・靖国神社）U+2028問題解消（2026/03/20）
 - [x] jinja-db 5社追加 151社到達（2026/03/16）
@@ -90,6 +92,9 @@
 - 03/20: 請求書運用はClaude.aiプロジェクト「アルゴ経理」で完結。GitHubは将来のメール連携用
 - 03/20: 手代木2号構想（RAG×Claude API）始動。Phase0データ保全完了
 - 03/20: task-master運用改善：完了タスクとサブタスクの粒度を揃えるルール追加
+- 03/20: D-U-N-S番号 691233455（株式会社アルゴ）
+- 03/20: Apple Developer申請完了。さくらWebメールを毎日チェック。Gmail転送は後日修正
+- 03/20: jinja-db 166社完了＋15社追加予定で181社体制へ
 
 ## 運用ルール
 - 朝: このファイルを確認 → ラムに貼って今日のタスク整理
