@@ -1,5 +1,5 @@
 # Algo OS タスクマスター
-> 最終更新: 2026/03/20（夜）
+> 最終更新: 2026/03/20（深夜）
 
 ## アクティブタスク
 
@@ -18,7 +18,7 @@
   - Day3: 氣比神宮・熱田神宮・多賀大社・吉備津神社・筥崎宮
 - [ ] algo-keiri invoice_generator.py 本実装（Claude Code）
 - [ ] 手代木データGoogleDrive整理＋フォルダ分類
-- [ ] 手代木2号RAG構築（Phase1〜）
+- [ ] 手代木2号RAG構築（Phase1〜 検索API化・Claude API連携）
 - [ ] IBCA インストラクター名刺作成
 - [ ] IBCA licensework/index.php フィルターボタンJS（講演・講習カード追加時）
 - [ ] kippo-tabi Search Console登録+sitemap送信
@@ -62,6 +62,7 @@
 - [x] algo-inc.com 復旧完了（2026/02/23）
 - [x] AlgoCosme 新EC本番稼働（22製品）
 - [x] AlgoCosme スマホハンバーガーメニュー修正（2026/03/16）
+- [x] AlgoCosme ポイントシステム実装・/sample廃止・価格常時表示・CTA改善（2026/03/20）
 - [x] kippo-tabi GA4測定ID本番設定（2026/03/16）全137ファイル
 - [x] IBCA X（@IBCA_beauty）開設・プロフィール設定・初投稿5本予約済み（2026/03/16）
 - [x] IBCA Instagram開設・初投稿完了・画像17枚作成済み（2026/03/16）
@@ -76,6 +77,7 @@
 - [x] 請求書PDFジェネレーター完成（invoice_generator.py）
 - [x] クリニックマスター作成（25社）
 - [x] アルゴ経理プロジェクト（Claude.ai）セットアップ完了
+- [x] 手代木2号リポジトリ作成＋Phase0データ投入完了（2026/03/20）teshirogi2_search.py・チャンク・ベクトル・モデル・テキスト一式
 - [x] 手代木データ40GBバックアップ（Mac＋Google Drive）
 - [x] meguri Phase1-4完走 Web版90%（2026/03/14）
 - [x] CLAUDE.md 全7リポジトリ完了（2026/03/14）
@@ -91,6 +93,7 @@
 - 03/20: contact@/info@はボット辞書攻撃の対象。独自アドレス（devapp/laboskin/celllab）に変更で迷惑メール対策
 - 03/20: 請求書運用はClaude.aiプロジェクト「アルゴ経理」で完結。GitHubは将来のメール連携用
 - 03/20: 手代木2号構想（RAG×Claude API）始動。Phase0データ保全完了
+- 03/20: teshirogi2リポジトリ（private）作成。検索スクリプト・チャンク・ベクトル・TF-IDF/SVDモデル・テキストデータ一式を投入。_svd_model.pkl 73MB警告あり
 - 03/20: task-master運用改善：完了タスクとサブタスクの粒度を揃えるルール追加
 - 03/20: D-U-N-S番号 691233455（株式会社アルゴ）
 - 03/20: Apple Developer申請完了。さくらWebメールを毎日チェック。Gmail転送は後日修正
