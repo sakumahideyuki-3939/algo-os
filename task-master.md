@@ -7,16 +7,15 @@
 - [ ] meguri React Nativeアプリ化（iOS+Android）
 
 ### 🟡 進行中
-- [ ] jinja-db 追加15社登録（166→181社）3日で完了予定
-  - Day1: 宗像大社・太宰府天満宮・霧島神宮・波上宮・香椎宮
-  - Day2: 宇佐神宮・阿蘇神社・青井阿蘇神社・白山比咩神社・氣多大社
-  - Day3: 氣比神宮・熱田神宮・多賀大社・吉備津神社・筥崎宮
-  - 既知問題: 鶴岡八幡宮・靖国神社のJSON壊れ → 修復済み（2026/03/20）
 - [ ] IBCAキッズコスメ動画視聴ページ（🟡YouTubeアップ待ち）
   - ibca-websiteリポ内 ibca.jp/kidscosme/ に実装
   - 手順: ①YTアップ(Algo手動)→②Claude Code実装→③テスト
 
 ### 🔲 未着手・待ち
+- [ ] jinja-db 追加15社登録（166→181社）Gemini5社/日×3日
+  - Day1: 宗像大社・太宰府天満宮・霧島神宮・波上宮・香椎宮
+  - Day2: 宇佐神宮・阿蘇神社・青井阿蘇神社・白山比咩神社・氣多大社
+  - Day3: 氣比神宮・熱田神宮・多賀大社・吉備津神社・筥崎宮
 - [ ] algo-keiri invoice_generator.py 本実装（Claude Code）
 - [ ] 手代木データGoogleDrive整理＋フォルダ分類
 - [ ] 手代木2号RAG構築（Phase1〜）
@@ -66,6 +65,7 @@
 - [x] IBCA X（@IBCA_beauty）開設・プロフィール設定・初投稿5本予約済み（2026/03/16）
 - [x] IBCA Instagram開設・初投稿完了・画像17枚作成済み（2026/03/16）
 - [x] GitHubトークンローテーション gh auth login（2026/03/16）
+- [x] jinja-db 166社登録完了（2026/03/20）
 - [x] jinja-db JSON修復（鶴岡八幡宮・靖国神社）U+2028問題解消（2026/03/20）
 - [x] jinja-db 5社追加 151社到達（2026/03/16）
 - [x] 全サイトメールアドレス変更（2026/03/20）AlgoCosme→laboskin@ / algo-inc→devapp@ / stemcell→celllab@ / meguri特商法→devapp@　計33箇所
