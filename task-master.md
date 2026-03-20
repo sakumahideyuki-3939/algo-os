@@ -63,6 +63,7 @@
 - [x] AlgoCosme 新EC本番稼働（22製品）
 - [x] AlgoCosme スマホハンバーガーメニュー修正（2026/03/16）
 - [x] AlgoCosme ポイントシステム実装・/sample廃止・価格常時表示・CTA改善（2026/03/20）
+- [x] AlgoCosme 利用規約・ポイント上限動的表示・医師管理下注記・卸売価格注釈・申請フォーム任意項目・DB価格修正・FAX注文書差し替え（2026/03/20）
 - [x] kippo-tabi GA4測定ID本番設定（2026/03/16）全137ファイル
 - [x] IBCA X（@IBCA_beauty）開設・プロフィール設定・初投稿5本予約済み（2026/03/16）
 - [x] IBCA Instagram開設・初投稿完了・画像17枚作成済み（2026/03/16）
@@ -74,6 +75,7 @@
 - [x] 全サイトメールアドレス変更（2026/03/20）AlgoCosme→laboskin@ / algo-inc→devapp@ / stemcell→celllab@ / meguri特商法→devapp@　計33箇所
 - [x] さくらサーバーメールアカウント3件作成（devapp@algo-inc.com, laboskin@algo-cosme.com, celllab@algo-cosme.com）
 - [x] algo-keiriリポジトリ作成＋CLAUDE.md（2026/03/20）
+- [x] kobore-log Phase 0 MVP実装・GitHub作成・Issue #104起票（2026/03/20）
 - [x] 請求書PDFジェネレーター完成（invoice_generator.py）
 - [x] クリニックマスター作成（25社）
 - [x] アルゴ経理プロジェクト（Claude.ai）セットアップ完了
