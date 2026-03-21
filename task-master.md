@@ -93,6 +93,7 @@
 - [x] 手代木データ40GBバックアップ（Mac＋Google Drive）
 - [x] kobore-log Phase 0 完了・PWA版Sakuraデプロイ・音声入力・週次レポート・Expo+RN移行開始（2026/03/21）
 - [x] jinja-db 171社確定＋自動化土台構築（2026/03/21）shrines/統合・process-inbox.sh・templates
+- [x] jinja-db 神社3社自動登録（旭川・函館八幡宮・帯廣）+ build-json.py修正 + process-inbox.sh BSD sed修正（2026/03/21）
 - [x] anken-app 暗剣殺早見 完了（公開済み）
 
 ## 📝 メモ・気づき・独り言
@@ -110,7 +111,8 @@
 - 03/20: task-master運用改善：完了タスクとサブタスクの粒度を揃えるルール追加
 - 03/20: D-U-N-S番号 691233455（株式会社アルゴ）
 - 03/20: Apple Developer申請完了。さくらWebメールを毎日チェック。Gmail転送は後日修正
-- 03/21: jinja-db 実態は171社（JSON）/ 144件（md）。181社は誤カウント→修正済み
+- 03/21: jinja-db 実態は174社（JSON）/ 144件（md）。181社は誤カウント→修正済み
+- 03/21: Claude in Chromeによる神社自動登録フロー実証成功。Gemini調査→GitHub inbox commit→process-inbox.sh処理。💾マーカー問題・BSD sed問題を修正済み
 - 03/21: kobore-log 1日でPhase0完成→Phase1突入。PWA版完成→音声入力→「王様の耳」命名→週次レポート「封をあける」→Expo+RN移行→CaptureScreen RN実装→SDK54ダウングレード→EAS CLI準備。Apple Developer審査待ち
 
 ### リポジトリ整理メモ
@@ -133,7 +135,7 @@
 
 | プロジェクト | 指標 | 確認方法 | 現在値（2026/03/21） |
 |---|---|---|---|
-| jinja-db | 神社数（JSON） | `python3 -c "import json; print(len(json.load(open('shrines.json'))))"` | 171件 |
+| jinja-db | 神社数（JSON） | `python3 -c "import json; print(len(json.load(open('shrines.json'))))"` | 174件 |
 | jinja-db | 神社数（mdファイル） | `ls shrines/*.md \| wc -l` | 144件 |
 | AlgoCosme | 製品数 | `seed.sql`のINSERT行カウント | 22製品 |
 | kippo-tabi | ページ数 | `find . -name "*.html" \| wc -l` | 137ページ |
