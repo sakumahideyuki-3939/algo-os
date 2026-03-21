@@ -1,5 +1,5 @@
 # Algo OS タスクマスター
-> 最終更新: 2026/03/20（深夜）
+> 最終更新: 2026/03/21
 
 ## アクティブタスク
 
@@ -7,6 +7,8 @@
 - [ ] meguri React Nativeアプリ化（iOS+Android）
 
 ### 🟡 進行中
+- [ ] kobore-log（王様の耳）Phase 1: Expo+RN移行（🟡Apple Developer審査待ち→EASビルド）
+  - CaptureScreen RN実装済み、残: LockScreen/ListScreen/DetailScreen移植、expo-sqlite DB層
 - [ ] IBCAキッズコスメ動画視聴ページ（🟡YouTubeアップ待ち）
   - ibca-websiteリポ内 ibca.jp/kidscosme/ に実装
   - 手順: ①YTアップ(Algo手動)→②Claude Code実装→③テスト
@@ -75,7 +77,7 @@
 - [x] 全サイトメールアドレス変更（2026/03/20）AlgoCosme→laboskin@ / algo-inc→devapp@ / stemcell→celllab@ / meguri特商法→devapp@　計33箇所
 - [x] さくらサーバーメールアカウント3件作成（devapp@algo-inc.com, laboskin@algo-cosme.com, celllab@algo-cosme.com）
 - [x] algo-keiriリポジトリ作成＋CLAUDE.md（2026/03/20）
-- [x] kobore-log Phase 0 MVP実装・GitHub作成・Issue #104起票（2026/03/20）
+- [x] kobore-log Phase 0 完了・PWA版Sakuraデプロイ・音声入力・週次レポート・Expo+RN移行開始（2026/03/21）
 - [x] 請求書PDFジェネレーター完成（invoice_generator.py）
 - [x] クリニックマスター作成（25社）
 - [x] アルゴ経理プロジェクト（Claude.ai）セットアップ完了
@@ -100,6 +102,7 @@
 - 03/20: D-U-N-S番号 691233455（株式会社アルゴ）
 - 03/20: Apple Developer申請完了。さくらWebメールを毎日チェック。Gmail転送は後日修正
 - 03/20: jinja-db 166社完了＋15社追加予定で181社体制へ
+- 03/21: kobore-log 1日でPhase0完成→Phase1突入。PWA版完成→音声入力→「王様の耳」命名→週次レポート「封をあける」→Expo+RN移行→CaptureScreen RN実装→SDK54ダウングレード→EAS CLI準備。Apple Developer審査待ち
 
 ## 運用ルール
 - 朝: このファイルを確認 → ラムに貼って今日のタスク整理
