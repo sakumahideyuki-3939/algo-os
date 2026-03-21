@@ -52,38 +52,48 @@
 - [ ] LINE連携サブスクリプション販売アプリ（美容サロン向け）
 
 ## ✅ 完了タスク
+- [x] algo-inc.com 復旧完了（2026/02/23）
+- [x] algo-inc-web SEO・信頼性・技術基盤一括整備（2026/03/06）
+- [x] algo-inc-web CONTACTページ問い合わせフォーム新規作成（2026/03/08）
+- [x] stemcell-b2c SEOブログ2本（上清液vsLysate、AGA×幹細胞）（2026/03/09）
+- [x] stemcell-b2c clinic/ B2Bモバイル対応（2026/03/09）
+- [x] stemcell-b2c consult/ ヒーロー背景・ピクトグラム・テキスト削減（2026/03/09）
+- [x] stemcell-b2c consult/ 個人向け動線改善P0+P1（2026/03/11）
+- [x] stemcell-b2c 法律9分野チェック全クリーン化（グレー=アウト方針）（2026/03/12）
+- [x] stemcell-b2c consult/ フッター縦書き化け修正（2026/03/12）
+- [x] AlgoCosme 新EC本番カットオーバー（2026/03/13）22製品
+- [x] CLAUDE.md 全7リポジトリ完了（2026/03/14）
+- [x] meguri Phase1-4完走 Web版90%（2026/03/14）
+- [x] ibca-website ヘッダーナビ整理（EBB・contact削除）（2026/03/14）
 - [x] tonkou-app 全完了（2026/03/15）R2総合97.7%、境界誤差確認済み
 - [x] koyomi-app デプロイ+暦照合100%（2026/03/15）本番公開済み
 - [x] kippo-tabi Phase0-6全完走（2026/03/15）137ページ
 - [x] IBCA 2級実試験フロー確認済み（2026/03/15）合格証・メール送信OK
 - [x] IBCA 級名称変更 全リネーム完了（2026/03/15）
-- [x] algo-inc.com 復旧完了（2026/02/23）
-- [x] AlgoCosme 新EC本番稼働（22製品）
+- [x] ibca-website 電子ディプロマデザインリニューアル（2026/03/15）
+- [x] ibca-website ダーマトロジー検定ロードマップページ新規作成（2026/03/15）
+- [x] ibca-website サイトチェック指摘事項一括修正（OGP・sitemap・GA4・CSRF）（2026/03/15）
+- [x] ibca-website 講師画像追加（五色彩・滝川真優）（2026/03/15）
 - [x] AlgoCosme スマホハンバーガーメニュー修正（2026/03/16）
-- [x] AlgoCosme ポイントシステム実装・/sample廃止・価格常時表示・CTA改善（2026/03/20）
-- [x] AlgoCosme 利用規約・ポイント上限動的表示・医師管理下注記・卸売価格注釈・申請フォーム任意項目・DB価格修正・FAX注文書差し替え（2026/03/20）
 - [x] kippo-tabi GA4測定ID本番設定（2026/03/16）全137ファイル
 - [x] IBCA X（@IBCA_beauty）開設・プロフィール設定・初投稿5本予約済み（2026/03/16）
 - [x] IBCA iron-textbook 1級＋試験ページ追加・毛髪構造解析士検定タイトル修正（2026/03/16）
 - [x] IBCA Instagram開設・初投稿完了・画像17枚作成済み（2026/03/16）
 - [x] GitHubトークンローテーション gh auth login（2026/03/16）
-- [x] Apple Developer Program法人申請完了（2026/03/20）登録ID:4N2MY837MF、承認待ち
-- [x] jinja-db 自動化土台構築（scripts/process-inbox.sh・templates・inbox・todo-shrines.txt）（2026/03/21）
-- [x] jinja-db 追加15社データ更新完了・171社確定（2026/03/21）重複解消・title→name統合・shrines/統合
-- [x] jinja-db 166社登録完了（2026/03/20）
-- [x] jinja-db JSON修復（鶴岡八幡宮・靖国神社）U+2028問題解消（2026/03/20）
-- [x] jinja-db 5社追加 151社到達（2026/03/16）
 - [x] 全サイトメールアドレス変更（2026/03/20）AlgoCosme→laboskin@ / algo-inc→devapp@ / stemcell→celllab@ / meguri特商法→devapp@　計33箇所
 - [x] さくらサーバーメールアカウント3件作成（devapp@algo-inc.com, laboskin@algo-cosme.com, celllab@algo-cosme.com）
 - [x] algo-keiriリポジトリ作成＋CLAUDE.md（2026/03/20）
-- [x] kobore-log Phase 0 完了・PWA版Sakuraデプロイ・音声入力・週次レポート・Expo+RN移行開始（2026/03/21）
+- [x] Apple Developer Program法人申請完了（2026/03/20）登録ID:4N2MY837MF、承認待ち
+- [x] jinja-db JSON修復（鶴岡八幡宮・靖国神社）U+2028問題解消（2026/03/20）
+- [x] AlgoCosme ポイントシステム・/sample廃止・価格常時表示・CTA改善・利用規約・FAX注文書差し替え（2026/03/20）
 - [x] 請求書PDFジェネレーター完成（invoice_generator.py）
 - [x] クリニックマスター作成（25社）
 - [x] アルゴ経理プロジェクト（Claude.ai）セットアップ完了
 - [x] 手代木2号リポジトリ作成＋Phase0データ投入完了（2026/03/20）teshirogi2_search.py・チャンク・ベクトル・モデル・テキスト一式
 - [x] 手代木データ40GBバックアップ（Mac＋Google Drive）
-- [x] meguri Phase1-4完走 Web版90%（2026/03/14）
-- [x] CLAUDE.md 全7リポジトリ完了（2026/03/14）
+- [x] kobore-log Phase 0 完了・PWA版Sakuraデプロイ・音声入力・週次レポート・Expo+RN移行開始（2026/03/21）
+- [x] jinja-db 171社確定＋自動化土台構築（2026/03/21）shrines/統合・process-inbox.sh・templates
+- [x] anken-app 暗剣殺早見 完了（公開済み）
 
 ## 📝 メモ・気づき・独り言
 ### 2026/03
@@ -100,15 +110,23 @@
 - 03/20: task-master運用改善：完了タスクとサブタスクの粒度を揃えるルール追加
 - 03/20: D-U-N-S番号 691233455（株式会社アルゴ）
 - 03/20: Apple Developer申請完了。さくらWebメールを毎日チェック。Gmail転送は後日修正
-- 03/20: jinja-db 166社完了＋15社追加予定で181社体制へ
-- 03/21: jinja-db 追加15社はデータ更新（既存充実化）。実態は171社。181社は誤カウント→修正済み
+- 03/21: jinja-db 実態は171社（JSON）/ 144件（md）。181社は誤カウント→修正済み
 - 03/21: kobore-log 1日でPhase0完成→Phase1突入。PWA版完成→音声入力→「王様の耳」命名→週次レポート「封をあける」→Expo+RN移行→CaptureScreen RN実装→SDK54ダウングレード→EAS CLI準備。Apple Developer審査待ち
+
+### リポジトリ整理メモ
+- meguri-app: meguriに統合済み（アーカイブ推奨）
+- algo-cosme: algocosme-new-ecに移行済み（アーカイブ推奨）
+- golf: golf-metrics-osに統合済み（アーカイブ推奨）
+- ibca-wp-theme: IBCAブログ用WPテーマ（使用中）
+- stemcell-b2b: アーカイブ済み
 
 ## 運用ルール
 - 朝: このファイルを確認 → ラムに貼って今日のタスク整理
-- 終了: Claude Codeで「終了」→ このファイルを更新 → git push
+- 終了: Claude Codeで「終了」→ git log --oneline -5を確認 → task-masterに未反映のコミットがないか突き合わせ → 更新 → git push
 - 新規タスク: ラムに伝える → Claude Code経由でこのファイルに追記 → git push
+- 週次: 毎週月曜に `bash ~/algo-os/scripts/check-all-repos.sh` で全リポジトリgit logとtask-masterを突き合わせる
 - 数値更新時: 必ず実データ（JSON/SQL/HTML/git log）を確認してから記載する。推測で数字を書かない
+- 粒度: 1セッション=1行を原則。同日複数セッションはまとめ可。進捗マイルストーンは最終値のみ残す
 
 ## ■ 数値チェックリスト
 > task-master更新時に実データと照合すること
