@@ -14,10 +14,6 @@
   - 手順: ①YTアップ(Algo手動)→②Claude Code実装→③テスト
 
 ### 🔲 未着手・待ち
-- [ ] jinja-db 追加15社登録（166→181社）Gemini5社/日×3日
-  - Day1: 宗像大社・太宰府天満宮・霧島神宮・波上宮・香椎宮
-  - Day2: 宇佐神宮・阿蘇神社・青井阿蘇神社・白山比咩神社・氣多大社
-  - Day3: 氣比神宮・熱田神宮・多賀大社・吉備津神社・筥崎宮
 - [ ] algo-keiri invoice_generator.py 本実装（Claude Code）
 - [ ] 手代木データGoogleDrive整理＋フォルダ分類
 - [ ] 手代木2号RAG構築（Phase1〜 検索API化・Claude API連携）
@@ -71,6 +67,7 @@
 - [x] IBCA Instagram開設・初投稿完了・画像17枚作成済み（2026/03/16）
 - [x] GitHubトークンローテーション gh auth login（2026/03/16）
 - [x] Apple Developer Program法人申請完了（2026/03/20）登録ID:4N2MY837MF、承認待ち
+- [x] jinja-db 追加15社登録完了・181社到達（2026/03/21）
 - [x] jinja-db 166社登録完了（2026/03/20）
 - [x] jinja-db JSON修復（鶴岡八幡宮・靖国神社）U+2028問題解消（2026/03/20）
 - [x] jinja-db 5社追加 151社到達（2026/03/16）
@@ -102,6 +99,7 @@
 - 03/20: D-U-N-S番号 691233455（株式会社アルゴ）
 - 03/20: Apple Developer申請完了。さくらWebメールを毎日チェック。Gmail転送は後日修正
 - 03/20: jinja-db 166社完了＋15社追加予定で181社体制へ
+- 03/21: jinja-db 追加15社登録完了。181社到達
 - 03/21: kobore-log 1日でPhase0完成→Phase1突入。PWA版完成→音声入力→「王様の耳」命名→週次レポート「封をあける」→Expo+RN移行→CaptureScreen RN実装→SDK54ダウングレード→EAS CLI準備。Apple Developer審査待ち
 
 ## 運用ルール
