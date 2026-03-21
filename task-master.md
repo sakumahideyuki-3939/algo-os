@@ -122,3 +122,4 @@
 | tonkou-app | R2精度 | CLAUDE.md記載 | 97.7% |
 | kobore-log | Phase | git log確認 | Phase 1（Expo+RN移行中） |
 | meguri | Phase | git log確認 | Phase 1-4完走・Web版90% |
+| teshirogi2 | データ件数 | `ls texts/*.txt \| wc -l` など実データ確認 | Phase0投入済み |
