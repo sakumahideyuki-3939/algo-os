@@ -64,10 +64,12 @@
 - [x] AlgoCosme 利用規約・ポイント上限動的表示・医師管理下注記・卸売価格注釈・申請フォーム任意項目・DB価格修正・FAX注文書差し替え（2026/03/20）
 - [x] kippo-tabi GA4測定ID本番設定（2026/03/16）全137ファイル
 - [x] IBCA X（@IBCA_beauty）開設・プロフィール設定・初投稿5本予約済み（2026/03/16）
+- [x] IBCA iron-textbook 1級＋試験ページ追加・毛髪構造解析士検定タイトル修正（2026/03/16）
 - [x] IBCA Instagram開設・初投稿完了・画像17枚作成済み（2026/03/16）
 - [x] GitHubトークンローテーション gh auth login（2026/03/16）
 - [x] Apple Developer Program法人申請完了（2026/03/20）登録ID:4N2MY837MF、承認待ち
-- [x] jinja-db 追加15社データ更新完了・171社確定（2026/03/21）重複解消・title→name統合
+- [x] jinja-db 自動化土台構築（scripts/process-inbox.sh・templates・inbox・todo-shrines.txt）（2026/03/21）
+- [x] jinja-db 追加15社データ更新完了・171社確定（2026/03/21）重複解消・title→name統合・shrines/統合
 - [x] jinja-db 166社登録完了（2026/03/20）
 - [x] jinja-db JSON修復（鶴岡八幡宮・靖国神社）U+2028問題解消（2026/03/20）
 - [x] jinja-db 5社追加 151社到達（2026/03/16）
@@ -106,3 +108,17 @@
 - 朝: このファイルを確認 → ラムに貼って今日のタスク整理
 - 終了: Claude Codeで「終了」→ このファイルを更新 → git push
 - 新規タスク: ラムに伝える → Claude Code経由でこのファイルに追記 → git push
+- 数値更新時: 必ず実データ（JSON/SQL/HTML/git log）を確認してから記載する。推測で数字を書かない
+
+## ■ 数値チェックリスト
+> task-master更新時に実データと照合すること
+
+| プロジェクト | 指標 | 確認方法 | 現在値（2026/03/21） |
+|---|---|---|---|
+| jinja-db | 神社数（JSON） | `python3 -c "import json; print(len(json.load(open('shrines.json'))))"` | 171件 |
+| jinja-db | 神社数（mdファイル） | `ls shrines/*.md \| wc -l` | 144件 |
+| AlgoCosme | 製品数 | `seed.sql`のINSERT行カウント | 22製品 |
+| kippo-tabi | ページ数 | `find . -name "*.html" \| wc -l` | 137ページ |
+| tonkou-app | R2精度 | CLAUDE.md記載 | 97.7% |
+| kobore-log | Phase | git log確認 | Phase 1（Expo+RN移行中） |
+| meguri | Phase | git log確認 | Phase 1-4完走・Web版90% |
