@@ -61,7 +61,8 @@
   - 参照PDF: ~/Desktop/八門萬年暦 2.pdf（pw: saku88）
 - [ ] algo-keiri invoice_generator.py 本実装（Claude Code）
 - [ ] 手代木データGoogleDrive整理＋フォルダ分類
-- [ ] 手代木2号RAG構築（Phase1〜 検索API化・Claude API連携）
+- [x] 手代木2号RAG構築 Phase3完了（2026/03/22）— sentence-transformers移行+Claude API連携（teshirogi2_ask.py）
+  - 残: Phase 1b AlgoCosme用データ洗い出し / Phase 2 Drive整理 / Phase 4 用途別IF
 - [ ] IBCA インストラクター名刺作成
 - [ ] IBCA licensework/index.php フィルターボタンJS（講演・講習カード追加時）
 - [ ] kippo-tabi Search Console登録+sitemap送信
