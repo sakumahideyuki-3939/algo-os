@@ -112,6 +112,7 @@
 - 03/20: D-U-N-S番号 691233455（株式会社アルゴ）
 - 03/20: Apple Developer申請完了。さくらWebメールを毎日チェック。Gmail転送は後日修正
 - 03/21: jinja-db 実態は174社（JSON）/ 144件（md）。181社は誤カウント→修正済み
+- 03/22: jinja-db 194社到達（+20社）、todo-shrines.txt整理済み（111→91件、寺院5+重複1除去）
 - 03/21: Claude in Chromeによる神社自動登録フロー実証成功。Gemini調査→GitHub inbox commit→process-inbox.sh処理。💾マーカー問題・BSD sed問題を修正済み
 - 03/21: kobore-log 1日でPhase0完成→Phase1突入。PWA版完成→音声入力→「王様の耳」命名→週次レポート「封をあける」→Expo+RN移行→CaptureScreen RN実装→SDK54ダウングレード→EAS CLI準備。Apple Developer審査待ち
 
@@ -133,9 +134,9 @@
 ## ■ 数値チェックリスト
 > task-master更新時に実データと照合すること
 
-| プロジェクト | 指標 | 確認方法 | 現在値（2026/03/21） |
+| プロジェクト | 指標 | 確認方法 | 現在値（2026/03/22） |
 |---|---|---|---|
-| jinja-db | 神社数（JSON） | `python3 -c "import json; print(len(json.load(open('shrines.json'))))"` | 174件 |
+| jinja-db | 神社数（JSON） | `python3 -c "import json; print(len(json.load(open('shrines.json'))))"` | 194件 |
 | jinja-db | 神社数（mdファイル） | `ls shrines/*.md \| wc -l` | 144件 |
 | AlgoCosme | 製品数 | `seed.sql`のINSERT行カウント | 22製品 |
 | kippo-tabi | ページ数 | `find . -name "*.html" \| wc -l` | 137ページ |
