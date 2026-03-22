@@ -14,10 +14,16 @@
   - 手順: ①YTアップ(Algo手動)→②Claude Code実装→③テスト
 
 ### 🔲 未着手・待ち
+- [ ] koyomi_new Phase 7: iOS/Androidビルド（🟡Apple認証待ち）
+  - Phase 0〜6 全完了: 暦エンジン26項目実装（4,061件照合 100%一致）、バグ4件修正、UI実装完了（Expo+RN）、全26 Issueクローズ、CLAUDE.md作成、GitHub push済み
+  - 残: Apple認証後にiOS/Androidビルド + App Store申請
 - [ ] tonkou_new ロジック明確化プロジェクト（tonkou-appは読み取り専用。新規作業は全てtonkou_newへ）
   - koyomi_newで実証済みフローを適用。知財防衛＋新規実装
-  - [ ] Phase 0: 準備
-    - [ ] 0-1. tonkou-appソース読み → 全計算項目洗い出し
+  - Phase 0-1 完了: 44項目洗い出し済み（メイン計算14 + 補助計算30）+ 7データファイル特定
+  - 🟡 Phase 0-2（Algo確認）待ち
+  - 要注意: R2総合判定 97.7%（100%未達）/ R3四十格 96.8%（100%未達）/ 日盤 2029/9/22不一致
+  - [x] Phase 0: 準備
+    - [x] 0-1. tonkou-appソース読み → 全計算項目洗い出し
     - [ ] 0-2. 項目数確定 → Algo確認
   - [ ] Phase 1: 監査（読み取り専用）
     - [ ] 1-1. 補助計算の監査（5観点）
