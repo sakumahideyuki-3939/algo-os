@@ -4,7 +4,9 @@
 ## アクティブタスク
 
 ### 🔴 最優先
-- [ ] meguri React Nativeアプリ化（iOS+Android）
+- [ ] meguri React Nativeアプリ化（iOS+Android）Phase 1-3完了、企画書v1の15項目中9項目実装済み
+  - 完了: データ投入（sekki.json+神社194社+暦エンジン26項目）、トップ画面改修（3カード+★翻訳+きっかけ文+お参り日和+おすすめ時間帯+折りたたみ）、オンボーディング（3画面+AsyncStorage）
+  - 残6件: プッシュ通知・Google Places API・御利益マッチング・参拝チェックイン+SNSシェア・旅行アフィリエイト・App Store申請素材
 
 ### 🟡 進行中
 - [ ] kobore-log（王様の耳）Apple認証待ち→即App Store申請可能
@@ -172,6 +174,7 @@
 - 03/22: 手代木2号 Phase0-2を1日で完走。TF-IDF→sentence-transformers移行で検索精度+61%。teshirogi2_ask.py（RAG質問応答）完成。個人利用はNotebookLMで十分、API($100残高)はサービス化時に使う方針
 - 03/22: 手代木さんYouTube音声→文字起こし投入で「手代木さんならこう答える」AI構想。明日手代木さんに確認予定
 - 03/22: 王様の耳 企画書v3作成（Agent Teams 6名レビュー統合）＋全8機能実装完了。Apple認証後に即申請可能な状態
+- 03/22: meguri-app企画書v1作成（Agent Teams 6名レビュー）＋Phase1-3実装完了。コンセプト「どうせ動くなら、いい方角へ。」確定。難しい用語を★と絵文字に全翻訳。3カード（ぶらっと/ちょっと/おでかけ）+きっかけ文30テンプレ+お参り日和+おすすめ時間帯+折りたたみ+オンボーディング
 - 03/22: APIキー衝突問題を解消（.zshrc/.zprofile/.bash_profileからANTHROPIC_API_KEY削除。手代木2号使用時のみexportする運用に）
 - 03/21: Claude in Chromeによる神社自動登録フロー実証成功。Gemini調査→GitHub inbox commit→process-inbox.sh処理。💾マーカー問題・BSD sed問題を修正済み
 - 03/21: kobore-log 1日でPhase0完成→Phase1突入。PWA版完成→音声入力→「王様の耳」命名→週次レポート「封をあける」→Expo+RN移行→CaptureScreen RN実装→SDK54ダウングレード→EAS CLI準備。Apple Developer審査待ち
@@ -202,7 +205,7 @@
 | kippo-tabi | ページ数 | `find . -name "*.html" \| wc -l` | 137ページ |
 | tonkou-app | R2精度 | CLAUDE.md記載 | 97.7% |
 | kobore-log | Phase | git log確認 | 全8機能実装完了・Apple認証待ち |
-| meguri | Phase | git log確認 | Phase 1-4完走・Web版90% |
+| meguri-app | Phase | git log確認 | Phase 1-3完了・RN版・企画書v1の9/15項目実装済み |
 | teshirogi2 | データ件数 | チャンク数確認 | IBCA3,736+幹細胞2,644=6,380チャンク、Phase2完了 |
 | koyomi_new | 照合精度 | 検算スクリプト確認 | 4,061件100% |
 | tonkou_new | 照合精度 | 検算スクリプト確認 | 236,520+件100% |
