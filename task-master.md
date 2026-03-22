@@ -7,8 +7,10 @@
 - [ ] meguri React Nativeアプリ化（iOS+Android）
 
 ### 🟡 進行中
-- [ ] kobore-log（王様の耳）Phase 1: Expo+RN移行（🟡Apple Developer審査待ち→EASビルド）
-  - CaptureScreen RN実装済み、残: LockScreen/ListScreen/DetailScreen移植、expo-sqlite DB層
+- [ ] kobore-log（王様の耳）Apple認証待ち→即App Store申請可能
+  - 企画書v3完成（Agent Teams 6名レビュー統合版）
+  - 全8機能実装済み: オンボーディング・穴閉じアニメーション・ワードクラウド・感情分析・ストリーク・危機キーワード検出・RevenueCat課金土台・App Store申請素材
+  - 残: Apple認証→eas build→RevenueCat APIキー設定→LockScreen→TestFlight→申請
 - [ ] IBCAキッズコスメ動画視聴ページ（🟡YouTubeアップ待ち）
   - ibca-websiteリポ内 ibca.jp/kidscosme/ に実装
   - 手順: ①YTアップ(Algo手動)→②Claude Code実装→③テスト
@@ -169,6 +171,8 @@
 - 03/22: 方針確定：ロジック最優先、旧アプリ不可侵、作成者=佐久間秀行（株式会社アルゴ）
 - 03/22: 手代木2号 Phase0-2を1日で完走。TF-IDF→sentence-transformers移行で検索精度+61%。teshirogi2_ask.py（RAG質問応答）完成。個人利用はNotebookLMで十分、API($100残高)はサービス化時に使う方針
 - 03/22: 手代木さんYouTube音声→文字起こし投入で「手代木さんならこう答える」AI構想。明日手代木さんに確認予定
+- 03/22: 王様の耳 企画書v3作成（Agent Teams 6名レビュー統合）＋全8機能実装完了。Apple認証後に即申請可能な状態
+- 03/22: APIキー衝突問題を解消（.zshrc/.zprofile/.bash_profileからANTHROPIC_API_KEY削除。手代木2号使用時のみexportする運用に）
 - 03/21: Claude in Chromeによる神社自動登録フロー実証成功。Gemini調査→GitHub inbox commit→process-inbox.sh処理。💾マーカー問題・BSD sed問題を修正済み
 - 03/21: kobore-log 1日でPhase0完成→Phase1突入。PWA版完成→音声入力→「王様の耳」命名→週次レポート「封をあける」→Expo+RN移行→CaptureScreen RN実装→SDK54ダウングレード→EAS CLI準備。Apple Developer審査待ち
 
@@ -197,7 +201,7 @@
 | AlgoCosme | 製品数 | `seed.sql`のINSERT行カウント | 22製品 |
 | kippo-tabi | ページ数 | `find . -name "*.html" \| wc -l` | 137ページ |
 | tonkou-app | R2精度 | CLAUDE.md記載 | 97.7% |
-| kobore-log | Phase | git log確認 | Phase 1（Expo+RN移行中） |
+| kobore-log | Phase | git log確認 | 全8機能実装完了・Apple認証待ち |
 | meguri | Phase | git log確認 | Phase 1-4完走・Web版90% |
 | teshirogi2 | データ件数 | チャンク数確認 | IBCA3,736+幹細胞2,644=6,380チャンク、Phase2完了 |
 | koyomi_new | 照合精度 | 検算スクリプト確認 | 4,061件100% |
