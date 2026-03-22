@@ -61,8 +61,8 @@
   - 参照PDF: ~/Desktop/八門萬年暦 2.pdf（pw: saku88）
 - [ ] algo-keiri invoice_generator.py 本実装（Claude Code）
 - [ ] 手代木データGoogleDrive整理＋フォルダ分類
-- [x] 手代木2号RAG構築 Phase3完了（2026/03/22）— sentence-transformers移行+Claude API連携（teshirogi2_ask.py）
-  - 残: Phase 1b AlgoCosme用データ洗い出し / Phase 2 Drive整理 / Phase 4 用途別IF
+- [ ] 手代木2号 Phase3: 実戦投入（NotebookLMで個人利用 / APIはサービス化時）
+- [ ] 手代木2号 Phase4: YouTube音声→文字起こし→投入（手代木さん許諾後）
 - [ ] IBCA インストラクター名刺作成
 - [ ] IBCA licensework/index.php フィルターボタンJS（講演・講習カード追加時）
 - [ ] kippo-tabi Search Console登録+sitemap送信
@@ -141,6 +141,7 @@
 - [x] stemcell-b2c フォームバックエンド・メールサーバー実装（2026/03/12）CSRF・レート制限・ハニーポット付き、PHP mail()で3フォーム対応
 - [x] jinja-db 神社3社自動登録（旭川・函館八幡宮・帯廣）+ build-json.py修正 + process-inbox.sh BSD sed修正（2026/03/21）
 - [x] anken-app 暗剣殺早見 完了（公開済み）
+- [x] 手代木2号 Phase0-2完走（2026/03/22）CLAUDE.md作成、sentence-transformers移行（精度+61%）、Claude API連携（teshirogi2_ask.py）完成
 - [x] koyomi_new 全Phase完走（Phase0-6）26項目・4,061件照合100%・バグ4件修正・UI実装完了（2026/03/22）iOSビルドはApple認証待ち
 - [x] tonkou_new 全Phase完走（Phase0-7）51項目・236,520+フィールド照合100%・バグ5件修正・UI実装完了（2026/03/22）iOSビルドはApple認証待ち
 
@@ -166,6 +167,8 @@
 - 03/22: koyomi_new + tonkou_new を1日で完走。77項目のエンジン+UI。過去最大の成果。両アプリともApple認証待ちのみ
 - 03/22: tonkou_new リポジトリ新規作成 sakumahideyuki-3939/tonkou_new（private）
 - 03/22: 方針確定：ロジック最優先、旧アプリ不可侵、作成者=佐久間秀行（株式会社アルゴ）
+- 03/22: 手代木2号 Phase0-2を1日で完走。TF-IDF→sentence-transformers移行で検索精度+61%。teshirogi2_ask.py（RAG質問応答）完成。個人利用はNotebookLMで十分、API($100残高)はサービス化時に使う方針
+- 03/22: 手代木さんYouTube音声→文字起こし投入で「手代木さんならこう答える」AI構想。明日手代木さんに確認予定
 - 03/21: Claude in Chromeによる神社自動登録フロー実証成功。Gemini調査→GitHub inbox commit→process-inbox.sh処理。💾マーカー問題・BSD sed問題を修正済み
 - 03/21: kobore-log 1日でPhase0完成→Phase1突入。PWA版完成→音声入力→「王様の耳」命名→週次レポート「封をあける」→Expo+RN移行→CaptureScreen RN実装→SDK54ダウングレード→EAS CLI準備。Apple Developer審査待ち
 
@@ -196,6 +199,6 @@
 | tonkou-app | R2精度 | CLAUDE.md記載 | 97.7% |
 | kobore-log | Phase | git log確認 | Phase 1（Expo+RN移行中） |
 | meguri | Phase | git log確認 | Phase 1-4完走・Web版90% |
-| teshirogi2 | データ件数 | `ls texts/*.txt \| wc -l` など実データ確認 | Phase0投入済み |
+| teshirogi2 | データ件数 | チャンク数確認 | IBCA3,736+幹細胞2,644=6,380チャンク、Phase2完了 |
 | koyomi_new | 照合精度 | 検算スクリプト確認 | 4,061件100% |
 | tonkou_new | 照合精度 | 検算スクリプト確認 | 236,520+件100% |
