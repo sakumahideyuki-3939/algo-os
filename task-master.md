@@ -75,6 +75,15 @@
 - [ ] Instagram残り4投稿（セラミド・SPF・シミ・3級）画像作成済み
 - [ ] 柳さん待ち: EBBスライダーコピー・トップ写真3枚
 
+### 🟡 進行中（IBCA公式アプリ）
+- [ ] IBCA公式アプリ（ibca-app）Apple認証待ち→即App Store申請可能
+  - リポジトリ: sakumahideyuki-3939/ibca-app（Private）
+  - 技術構成: Expo + React Native + TypeScript
+  - 本番URL: App Store予定
+  - 完了: 企画書v1（Agent Teams）＋Phase1実装（9画面）＋ibca-website差分修正（11箇所）＋CLAUDE.md完全版＋App Store申請素材（プラポリ・利用規約・store-assets）
+  - 残: ブラウザ動作確認 → Apple認証後にEAS Build → App Store申請
+  - コンセプト:「根拠に基づく美容を学び、証を得るアプリ」完全無料・アプリ内課金なし
+
 ### 🟡 進行中（Golf Metrics OS）
 - [ ] Golf Metrics OS（golf / ゴルフトラッカー）Apple認証待ち→即App Store申請可能
   - リポジトリ: sakumahideyuki-3939/golf-metrics-os（Private）
@@ -163,6 +172,7 @@
 - 03/22: 手代木さんYouTube音声→文字起こし投入で「手代木さんならこう答える」AI構想。明日手代木さんに確認予定
 - 03/22: 王様の耳 企画書v3作成（Agent Teams 6名レビュー統合）＋全8機能実装完了。Apple認証後に即申請可能な状態
 - 03/22: meguri-app企画書v1作成（Agent Teams 6名レビュー）＋Phase1-3実装完了。コンセプト「どうせ動くなら、いい方角へ。」確定。難しい用語を★と絵文字に全翻訳。3カード（ぶらっと/ちょっと/おでかけ）+きっかけ文30テンプレ+お参り日和+おすすめ時間帯+折りたたみ+オンボーディング
+- 03/22: IBCA公式アプリ企画書v1作成＋Phase1実装完了（9画面・3級30問＋2級40問＋筆記2問移植・ibca-website差分11箇所修正・CLAUDE.md完全版・App Store申請素材）。コンセプト「あなたの美容の証を、いつもポケットに。」確定。日本化粧品検定にアプリがない＝美容資格アプリで先行者優位。完全無料・追加コストゼロ
 - 03/22: Golf Metrics OS 企画書v1作成＋MVP2-3一気に実装完了。振り返りマップ（航空写真+GPS）、飛距離Haversine計算、スコア推移グラフ（Swift Charts）、独り言メモ、FREE/PRO 2層課金（RevenueCat）。「アドバイスしない。事実だけを並べる」哲学確定
 - 03/22: 全プロジェクト企画書出揃い：王様の耳v3、meguri v1、Golf Metrics OS v1。共通哲学「アプリは返事しない。気づきはユーザーのもの」
 - 03/22: APIキー衝突問題を解消（.zshrc/.zprofile/.bash_profileからANTHROPIC_API_KEY削除。手代木2号使用時のみexportする運用に）
