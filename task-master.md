@@ -68,7 +68,6 @@
 - [ ] Apple Developer Program承認待ち → 承認後$99支払い → Portal設定
 - [ ] Gmail転送設定修正（devapp/laboskin/celllab）→ Developer承認後に対応
 - [ ] Instagram残り4投稿（セラミド・SPF・シミ・3級）画像作成済み
-- [ ] stemcell-b2c フォームバックエンド・メールサーバー実装
 - [ ] 柳さん待ち: EBBスライダーコピー・トップ写真3枚
 
 ### 🟡 進行中（Golf Metrics OS）
@@ -138,6 +137,7 @@
 - [x] 手代木データ40GBバックアップ（Mac＋Google Drive）
 - [x] kobore-log Phase 0 完了・PWA版Sakuraデプロイ・音声入力・週次レポート・Expo+RN移行開始（2026/03/21）
 - [x] jinja-db 171社確定＋自動化土台構築（2026/03/21）shrines/統合・process-inbox.sh・templates
+- [x] stemcell-b2c フォームバックエンド・メールサーバー実装（2026/03/12）CSRF・レート制限・ハニーポット付き、PHP mail()で3フォーム対応
 - [x] jinja-db 神社3社自動登録（旭川・函館八幡宮・帯廣）+ build-json.py修正 + process-inbox.sh BSD sed修正（2026/03/21）
 - [x] anken-app 暗剣殺早見 完了（公開済み）
 
