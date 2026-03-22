@@ -76,24 +76,12 @@
 - [ ] 柳さん待ち: EBBスライダーコピー・トップ写真3枚
 
 ### 🟡 進行中（Golf Metrics OS）
-- [ ] Golf Metrics OS（golf / ゴルフトラッカー）
+- [ ] Golf Metrics OS（golf / ゴルフトラッカー）Apple認証待ち→即App Store申請可能
   - リポジトリ: sakumahideyuki-3939/golf-metrics-os（Private）
   - 技術構成: SwiftUI + watchOS + HealthKit + CloudKit
   - 本番URL: 未定（App Store予定）
-  - 完了済み:
-    - [x] 要件定義書 v0.1（4点修正反映済み）
-    - [x] データモデル設計（Round/HoleLog/ShotLog/CourseInfo/HoleInfo）
-    - [x] 状態遷移設計（Completed状態追加済み）
-    - [x] SwiftUI実装（35ファイル/4,351行）
-    - [x] ビルド成功＋シミュレーター動作確認
-    - [x] Entitlements設定（HealthKit/App Group/CloudKit）push済み
-  - 未完了:
-    - [ ] Apple Developer Program加入（$99/年）← 全てのゲート
-    - [ ] D-U-N-S番号確認（法人登録の場合）
-    - [ ] Developer Portal設定（App ID 2件/App Group/iCloud Container）
-    - [ ] Xcode Team設定（Automatic Signing）
-    - [ ] Apple Watch実機テスト
-    - [ ] MVP：18ホール止まらず記録できること
+  - MVP1-3完了（GPS打点/ペナルティ/統計/マップ/グラフ/メモ/飛距離/課金）。企画書v1の15項目中12項目実装済み
+  - 残: 音声認識（実機必須）+ App Store素材。Apple認証後に即申請可能
 
 ### 💡 検討中・将来
 - [ ] meguri 課金ライン確定（チーム相談予定）
@@ -175,6 +163,8 @@
 - 03/22: 手代木さんYouTube音声→文字起こし投入で「手代木さんならこう答える」AI構想。明日手代木さんに確認予定
 - 03/22: 王様の耳 企画書v3作成（Agent Teams 6名レビュー統合）＋全8機能実装完了。Apple認証後に即申請可能な状態
 - 03/22: meguri-app企画書v1作成（Agent Teams 6名レビュー）＋Phase1-3実装完了。コンセプト「どうせ動くなら、いい方角へ。」確定。難しい用語を★と絵文字に全翻訳。3カード（ぶらっと/ちょっと/おでかけ）+きっかけ文30テンプレ+お参り日和+おすすめ時間帯+折りたたみ+オンボーディング
+- 03/22: Golf Metrics OS 企画書v1作成＋MVP2-3一気に実装完了。振り返りマップ（航空写真+GPS）、飛距離Haversine計算、スコア推移グラフ（Swift Charts）、独り言メモ、FREE/PRO 2層課金（RevenueCat）。「アドバイスしない。事実だけを並べる」哲学確定
+- 03/22: 全プロジェクト企画書出揃い：王様の耳v3、meguri v1、Golf Metrics OS v1。共通哲学「アプリは返事しない。気づきはユーザーのもの」
 - 03/22: APIキー衝突問題を解消（.zshrc/.zprofile/.bash_profileからANTHROPIC_API_KEY削除。手代木2号使用時のみexportする運用に）
 - 03/21: Claude in Chromeによる神社自動登録フロー実証成功。Gemini調査→GitHub inbox commit→process-inbox.sh処理。💾マーカー問題・BSD sed問題を修正済み
 - 03/21: kobore-log 1日でPhase0完成→Phase1突入。PWA版完成→音声入力→「王様の耳」命名→週次レポート「封をあける」→Expo+RN移行→CaptureScreen RN実装→SDK54ダウングレード→EAS CLI準備。Apple Developer審査待ち
