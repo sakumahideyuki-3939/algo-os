@@ -140,6 +140,8 @@
 - [x] stemcell-b2c フォームバックエンド・メールサーバー実装（2026/03/12）CSRF・レート制限・ハニーポット付き、PHP mail()で3フォーム対応
 - [x] jinja-db 神社3社自動登録（旭川・函館八幡宮・帯廣）+ build-json.py修正 + process-inbox.sh BSD sed修正（2026/03/21）
 - [x] anken-app 暗剣殺早見 完了（公開済み）
+- [x] koyomi_new 全Phase完走（Phase0-6）26項目・4,061件照合100%・バグ4件修正・UI実装完了（2026/03/22）iOSビルドはApple認証待ち
+- [x] tonkou_new 全Phase完走（Phase0-7）51項目・236,520+フィールド照合100%・バグ5件修正・UI実装完了（2026/03/22）iOSビルドはApple認証待ち
 
 ## 📝 メモ・気づき・独り言
 ### 2026/03
@@ -160,6 +162,9 @@
 - 03/22: jinja-db 194社到達（+20社）。todo-shrines.txt整理済み（寺院5件+重複1件除去→残91件）。手動フロー確定（Gemini DR→Claude Code）、Chrome自動化は保留
 - 03/22: koyomi_new 凡例突き合わせ進行中（別チャット並走）
 - 03/22: Apple Developer審査待ち継続（3/20申請）
+- 03/22: koyomi_new + tonkou_new を1日で完走。77項目のエンジン+UI。過去最大の成果。両アプリともApple認証待ちのみ
+- 03/22: tonkou_new リポジトリ新規作成 sakumahideyuki-3939/tonkou_new（private）
+- 03/22: 方針確定：ロジック最優先、旧アプリ不可侵、作成者=佐久間秀行（株式会社アルゴ）
 - 03/21: Claude in Chromeによる神社自動登録フロー実証成功。Gemini調査→GitHub inbox commit→process-inbox.sh処理。💾マーカー問題・BSD sed問題を修正済み
 - 03/21: kobore-log 1日でPhase0完成→Phase1突入。PWA版完成→音声入力→「王様の耳」命名→週次レポート「封をあける」→Expo+RN移行→CaptureScreen RN実装→SDK54ダウングレード→EAS CLI準備。Apple Developer審査待ち
 
@@ -191,3 +196,5 @@
 | kobore-log | Phase | git log確認 | Phase 1（Expo+RN移行中） |
 | meguri | Phase | git log確認 | Phase 1-4完走・Web版90% |
 | teshirogi2 | データ件数 | `ls texts/*.txt \| wc -l` など実データ確認 | Phase0投入済み |
+| koyomi_new | 照合精度 | 検算スクリプト確認 | 4,061件100% |
+| tonkou_new | 照合精度 | 検算スクリプト確認 | 236,520+件100% |
