@@ -125,6 +125,9 @@
 - [x] IBCA X（@IBCA_beauty）開設・プロフィール設定・初投稿5本予約済み（2026/03/16）
 - [x] IBCA iron-textbook 1級＋試験ページ追加・毛髪構造解析士検定タイトル修正（2026/03/16）
 - [x] IBCA Instagram開設・初投稿完了・画像17枚作成済み（2026/03/16）
+- [x] algo-inc-web アプリ販売会社として全面再構築（2026/03/23）/app/ディレクトリ構築・Heroスライダー・ナビ・フッター・CSS・15アプリURL全200OK
+- [x] 3リポジトリURL統一（kobore-log→ousama-no-mimi, koyomi_new→koyomi, tonkou_new→確認済み）（2026/03/23）
+- [x] ibca-website NEWS追加・unpkgバージョン固定（302リダイレクト修正）（2026/03/23）
 - [x] GitHubトークンローテーション gh auth login（2026/03/16）
 - [x] 全サイトメールアドレス変更（2026/03/20）AlgoCosme→laboskin@ / algo-inc→devapp@ / stemcell→celllab@ / meguri特商法→devapp@　計33箇所
 - [x] さくらサーバーメールアカウント3件作成（devapp@algo-inc.com, laboskin@algo-cosme.com, celllab@algo-cosme.com）
