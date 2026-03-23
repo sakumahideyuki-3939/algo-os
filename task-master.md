@@ -128,6 +128,7 @@
 - [x] algo-inc-web アプリ販売会社として全面再構築（2026/03/23）/app/ディレクトリ構築・Heroスライダー・ナビ・フッター・CSS・15アプリURL全200OK
 - [x] 3リポジトリURL統一（kobore-log→ousama-no-mimi, koyomi_new→koyomi, tonkou_new→確認済み）（2026/03/23）
 - [x] ibca-website NEWS追加・unpkgバージョン固定（302リダイレクト修正）（2026/03/23）
+- [x] ibca-website ステージング環境構築+全面リニューアル（2026/03/23）staging→algo-innovation.com/ibca-staging/ KATE風ダークテーマ・L1-L8テンプレート・全ページPHP化・講師プロフィール復元・ナビプルダウン化・毛髪構造解析士検定新設
 - [x] GitHubトークンローテーション gh auth login（2026/03/16）
 - [x] 全サイトメールアドレス変更（2026/03/20）AlgoCosme→laboskin@ / algo-inc→devapp@ / stemcell→celllab@ / meguri特商法→devapp@　計33箇所
 - [x] さくらサーバーメールアカウント3件作成（devapp@algo-inc.com, laboskin@algo-cosme.com, celllab@algo-cosme.com）
