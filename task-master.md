@@ -4,6 +4,16 @@
 ## アクティブタスク
 
 ### 🔴 最優先
+- [ ] Apple Developer Program アクティベーション確認 → 6アプリ一斉ビルド
+  - ¥12,980支払い完了（2026/03/24）→ 反映待ち（数時間〜最大48時間）
+  - 確認手順: ① Gmailで「Apple Developer Programへようこそ」メール確認 ② https://developer.apple.com/account/ でActive確認
+  - アクティブになったら即実行：
+    - [ ] 王様の耳: EAS Build → TestFlight → App Store申請
+    - [ ] IBCA公式アプリ: EAS Build → App Store申請
+    - [ ] koyomi: iOSビルド → App Store申請
+    - [ ] tonkou: iOSビルド → App Store申請
+    - [ ] meguri-app: iOSビルド → App Store申請
+    - [ ] Golf Metrics OS: iOSビルド → App Store申請
 - [ ] meguri React Nativeアプリ化（iOS+Android）Phase 1-3完了、企画書v1の15項目中9項目実装済み
   - 完了: データ投入（sekki.json+神社194社+暦エンジン26項目）、トップ画面改修（3カード+★翻訳+きっかけ文+お参り日和+おすすめ時間帯+折りたたみ）、オンボーディング（3画面+AsyncStorage）
   - 残6件: プッシュ通知・Google Places API・御利益マッチング・参拝チェックイン+SNSシェア・旅行アフィリエイト・App Store申請素材
@@ -70,7 +80,6 @@
 - [ ] IBCA インストラクター名刺作成
 - [ ] IBCA licensework/index.php フィルターボタンJS（講演・講習カード追加時）
 - [ ] kippo-tabi Search Console登録+sitemap送信
-- [ ] Apple Developer Program承認待ち → 承認後$99支払い → Portal設定
 - [ ] Gmail転送設定修正（devapp/laboskin/celllab）→ Developer承認後に対応
 - [ ] Instagram残り4投稿（セラミド・SPF・シミ・3級）画像作成済み
 - [ ] IBCA Stripe決済導入
@@ -99,6 +108,10 @@
 - [ ] LINE連携サブスクリプション販売アプリ（美容サロン向け）
 
 ## ✅ 完了タスク
+- [x] Apple Developer Program ¥12,980支払い完了（2026/03/24）Algo K.K. / 登録ID: 4N2MY837MF
+- [x] algo-keiri PDFテスト完了 + レイアウト改善 + IPAゴシック導入（2026/03/24）
+- [x] meguri-app 御利益マッチング（55カテゴリ）+ 参拝チェックイン&SNSシェア実装（2026/03/24）
+- [x] jinja-db バッチ19完了（229社到達）（2026/03/24）
 - [x] algo-inc.com 復旧完了（2026/02/23）
 - [x] algo-inc-web SEO・信頼性・技術基盤一括整備（2026/03/06）
 - [x] algo-inc-web CONTACTページ問い合わせフォーム新規作成（2026/03/08）
