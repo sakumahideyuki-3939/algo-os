@@ -1,5 +1,5 @@
 # Algo OS タスクマスター
-> 最終更新: 2026/03/24
+> 最終更新: 2026/03/24（夜）
 
 ## アクティブタスク
 
@@ -14,6 +14,14 @@
     - [ ] tonkou: iOSビルド → App Store申請
     - [ ] meguri-app: iOSビルド → App Store申請
     - [ ] Golf Metrics OS: iOSビルド → App Store申請
+- [ ] Apple Developerアカウントの状態確認（アクティベーション済みか）
+- [ ] koyomi（暦）から最初に申請（完全無料・サブスク不要で最もシンプル）
+- [ ] Xcodeビルド → App Store Connectアップロード
+- [ ] App Store Connect情報入力（スクリーンショット・説明文・キーワード）
+- [ ] スクリーンショット作成（6.7インチ・6.5インチ等）
+- [ ] アプリアイコン確認（1024x1024）
+- [ ] 残り5アプリのビルド＆申請（koyomi通過後）
+- [ ] サブスク商品作成＋RevenueCat連携（王様の耳・遁甲・Golf・めぐり）
 - [ ] AdMobアカウント作成 → 広告ユニットID取得 → koyomi/tonkou差し替え
 - [ ] RevenueCatダッシュボード設定 → APIキー取得 → 王様の耳/meguri/Golf差し替え
 - [ ] App Store Connect 銀行口座・税務情報登録（課金アプリ申請前に必要）
@@ -120,6 +128,12 @@
 - [ ] LINE連携サブスクリプション販売アプリ（美容サロン向け）
 
 ## ✅ 完了タスク
+- [x] algo-inc-web CLAUDE.md作成＋6アプリLP（9セクション統一テンプレート）作成・デプロイ（2026/03/24）
+- [x] algo-inc-web Apple審査用下層ページ（privacy/support/terms）5アプリ分作成・デプロイ（2026/03/24）
+- [x] ibca.jp/app/ 配下にprivacy/support/terms作成・デプロイ（2026/03/24）
+- [x] algo-inc-web app/一覧ページ説明文修正（遁甲・めぐり）（2026/03/24）
+- [x] algo-inc-web 旧.htmlファイル削除・URL統一（2026/03/24）
+- [x] algo-inc-web 全33ページリンクチェック完了（404ゼロ）（2026/03/24）
 - [x] 6アプリ Agent Teams 3軸チェック全完走（2026/03/24）無料/課金線引き・Apple審査・改良。王様の耳/IBCA/koyomi/tonkou/meguri/Golf全修正+push済み
 - [x] ibca.jp 本番公開 Phase2.5→4完走（2026/03/24）Agent Teams 41件分析+統合設計書・級名称統一・CTA改善・grade2テキスト導線・sitemap/robots.txt・スマホ表示修正・リンク切れ全修正
 - [x] ibca-app Apple審査対応+UX改良14件（2026/03/24）PP統一・App Privacy・confetti・合格証保存・弱点分析・中断再開・Instagramシェア
