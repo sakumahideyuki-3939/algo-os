@@ -94,7 +94,7 @@
   - リポジトリ: sakumahideyuki-3939/ibca-app（Private）
   - 技術構成: Expo + React Native + TypeScript
   - 本番URL: App Store予定
-  - 完了: 企画書v1（Agent Teams）＋Phase1実装（9画面）＋ibca-website差分修正（11箇所）＋CLAUDE.md完全版＋App Store申請素材（プラポリ・利用規約・store-assets）＋store-assets URL修正6件＋exams.tsリンク切れ修正
+  - 完了: 企画書v1（Agent Teams）＋Phase1実装（9画面）＋ibca-website差分修正（11箇所）＋CLAUDE.md完全版＋App Store申請素材（プラポリ・利用規約・store-assets）＋store-assets URL修正6件＋exams.tsリンク切れ修正＋ibca.jp/app/リーガルページ3点（privacy/support/terms）デプロイ済み
   - 残: Apple認証後にEAS Build → App Store申請
   - コンセプト:「根拠に基づく美容を学び、証を得るアプリ」完全無料・アプリ内課金なし
 
