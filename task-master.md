@@ -1,5 +1,5 @@
 # Algo OS タスクマスター
-> 最終更新: 2026/03/23
+> 最終更新: 2026/03/24
 
 ## アクティブタスク
 
@@ -73,6 +73,7 @@
 - [ ] Apple Developer Program承認待ち → 承認後$99支払い → Portal設定
 - [ ] Gmail転送設定修正（devapp/laboskin/celllab）→ Developer承認後に対応
 - [ ] Instagram残り4投稿（セラミド・SPF・シミ・3級）画像作成済み
+- [ ] IBCA Stripe決済導入
 - [ ] 柳さん待ち: EBBスライダーコピー・トップ写真3枚
 
 ### 🟡 進行中（IBCA公式アプリ）
@@ -80,8 +81,8 @@
   - リポジトリ: sakumahideyuki-3939/ibca-app（Private）
   - 技術構成: Expo + React Native + TypeScript
   - 本番URL: App Store予定
-  - 完了: 企画書v1（Agent Teams）＋Phase1実装（9画面）＋ibca-website差分修正（11箇所）＋CLAUDE.md完全版＋App Store申請素材（プラポリ・利用規約・store-assets）
-  - 残: ブラウザ動作確認 → Apple認証後にEAS Build → App Store申請
+  - 完了: 企画書v1（Agent Teams）＋Phase1実装（9画面）＋ibca-website差分修正（11箇所）＋CLAUDE.md完全版＋App Store申請素材（プラポリ・利用規約・store-assets）＋store-assets URL修正6件＋exams.tsリンク切れ修正
+  - 残: Apple認証後にEAS Build → App Store申請
   - コンセプト:「根拠に基づく美容を学び、証を得るアプリ」完全無料・アプリ内課金なし
 
 ### 🟡 進行中（Golf Metrics OS）
@@ -129,7 +130,7 @@
 - [x] 3リポジトリURL統一（kobore-log→ousama-no-mimi, koyomi_new→koyomi, tonkou_new→確認済み）（2026/03/23）
 - [x] ibca-website NEWS追加・unpkgバージョン固定（302リダイレクト修正）（2026/03/23）
 - [x] ibca-website ステージング環境構築+全面リニューアル（2026/03/23）staging→algo-innovation.com/ibca-staging/ KATE風ダークテーマ・L1-L8テンプレート・全ページPHP化・講師プロフィール復元・ナビプルダウン化・毛髪構造解析士検定新設
-- [x] ibca-website staging→main本番公開＋プロ向けコピー＋ibca-app整合性修正（2026/03/24）noindex削除・grade2テキストページ新規作成・級名称統一（BRONZE/SILVER/GOLD/MASTER）・ダーマLP 4職種ターゲット・選ばれる理由3本柱・sitemap/robots.txt更新・ナビ日本語化・リンク切れ7件修正・ibca-app store-assets URL修正+exams.tsリンク切れ修正
+- [x] ibca.jp 本番公開 Phase2.5→4完走（2026/03/24）staging→mainマージ・Agent Teams 41件分析+統合設計書・級名称統一（BRONZE/SILVER/GOLD/MASTER）全ページ・CTA改善+title最適化+プロ向けコピー・grade2テキスト導線ページ新規作成・sitemap/robots.txt+noindex削除+Search Console送信・スマホ表示修正（.user.ini/fade-in/ハンバーガーCSS）・ibca-app store-assets URL修正6件・ibca-app×ibca.jp整合性修正7件・Apple審査前リンク切れ全修正+ヘッダー/フッター統一
 - [x] GitHubトークンローテーション gh auth login（2026/03/16）
 - [x] 全サイトメールアドレス変更（2026/03/20）AlgoCosme→laboskin@ / algo-inc→devapp@ / stemcell→celllab@ / meguri特商法→devapp@　計33箇所
 - [x] さくらサーバーメールアカウント3件作成（devapp@algo-inc.com, laboskin@algo-cosme.com, celllab@algo-cosme.com）
