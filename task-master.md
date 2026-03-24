@@ -31,7 +31,7 @@
 - [ ] koyomi_new Phase 7: iOS/Androidビルド（🟡Apple認証待ち）
   - Phase 0〜6 全完了: 暦エンジン26項目実装（4,061件照合 100%一致）、バグ4件修正、UI実装完了（Expo+RN）、全26 Issueクローズ、CLAUDE.md作成、GitHub push済み
   - 残: Apple認証後にiOS/Androidビルド + App Store申請
-- [ ] tonkou_new ロジック明確化プロジェクト（tonkou-appは読み取り専用。新規作業は全てtonkou_newへ）★App Store審査対応完了(2026/03/23): 27/27 Pass
+- [ ] tonkou_new ロジック明確化プロジェクト（tonkou-appは読み取り専用。新規作業は全てtonkou_newへ）★TOP10一括実装完了(2026/03/24): バンドル123MB削減・AdMob・通知・免責・store-assets・ATT
   - koyomi_newで実証済みフローを適用。知財防衛＋新規実装
   - Phase 0-1 完了: 44項目洗い出し済み（メイン計算14 + 補助計算30）+ 7データファイル特定
   - 🟡 Phase 0-2（Algo確認）待ち
