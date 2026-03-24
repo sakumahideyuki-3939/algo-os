@@ -4,19 +4,23 @@
 ## アクティブタスク
 
 ### 🔴 最優先
-- [ ] Apple Developer Program アクティベーション確認 → 6アプリ一斉ビルド
-  - ¥12,980支払い完了（2026/03/24）→ 反映待ち（数時間〜最大48時間）
+- [ ] Apple Developer Programアクティベーション確認 → 6アプリ一斉ビルド
+  - ¥12,980支払い完了（2026/03/24）→ 反映待ち
   - 確認手順: ① Gmailで「Apple Developer Programへようこそ」メール確認 ② https://developer.apple.com/account/ でActive確認
-  - アクティブになったら即実行：
+  - アクティブになったら即実行：6アプリEAS Build / Xcode Build → TestFlight → App Store申請
     - [ ] 王様の耳: EAS Build → TestFlight → App Store申請
     - [ ] IBCA公式アプリ: EAS Build → App Store申請
     - [ ] koyomi: iOSビルド → App Store申請
     - [ ] tonkou: iOSビルド → App Store申請
     - [ ] meguri-app: iOSビルド → App Store申請
     - [ ] Golf Metrics OS: iOSビルド → App Store申請
+- [ ] AdMobアカウント作成 → 広告ユニットID取得 → koyomi/tonkou差し替え
+- [ ] RevenueCatダッシュボード設定 → APIキー取得 → 王様の耳/meguri/Golf差し替え
+- [ ] App Store Connect 銀行口座・税務情報登録（課金アプリ申請前に必要）
+- [ ] 各アプリのスクリーンショット撮影（実機ビルド後）
 - [ ] meguri React Nativeアプリ化（iOS+Android）Phase 1-3完了、企画書v1の15項目中9項目実装済み
-  - 完了: データ投入（sekki.json+神社194社+暦エンジン26項目）、トップ画面改修（3カード+★翻訳+きっかけ文+お参り日和+おすすめ時間帯+折りたたみ）、オンボーディング（3画面+AsyncStorage）
-  - 残6件: プッシュ通知・Google Places API・御利益マッチング・参拝チェックイン+SNSシェア・旅行アフィリエイト・App Store申請素材
+  - 完了: データ投入（sekki.json+神社194社+暦エンジン26項目）、トップ画面改修（3カード+★翻訳+きっかけ文+お参り日和+おすすめ時間帯+折りたたみ）、オンボーディング（3画面+AsyncStorage）、御利益マッチング（55カテゴリ）、参拝チェックイン+SNSシェア
+  - 残4件: プッシュ通知・Google Places API・旅行アフィリエイト・App Store申請素材
 
 ### 🟡 進行中
 - [ ] kobore-log（王様の耳）Apple認証待ち→即App Store申請可能
@@ -102,16 +106,27 @@
   - MVP1-3完了（GPS打点/ペナルティ/統計/マップ/グラフ/メモ/飛距離/課金）。企画書v1の15項目中12項目実装済み
   - 残: 音声認識（実機必須）+ App Store素材。Apple認証後に即申請可能
 
+### 💰 6アプリ課金モデル（確定 2026/03/24）
+| アプリ | モデル | 詳細 |
+|---|---|---|
+| 王様の耳 | ¥300/月サブスク（RevenueCat） | TOP10改良実装済み(311e038) |
+| IBCA | 完全無料 | Apple審査対応+UX改良14件(0bc9062) |
+| koyomi | AdMob広告+完全無料 | TOP10実装済み(beca77d) |
+| tonkou | AdMob広告+完全無料 | TOP10実装済み(6a9dbf6) バンドル123MB削減 |
+| meguri | ¥330/月サブスク（RevenueCat） | TOP10実装済み 229社更新 |
+| Golf Metrics OS | ¥480/月サブスク（RevenueCat） | TOP10実装済み Watch単独動作確認 |
+
 ### 💡 検討中・将来
-- [ ] meguri 課金ライン確定（チーム相談予定）
-- [ ] meguri PRO プロ向けティア
 - [ ] LINE連携サブスクリプション販売アプリ（美容サロン向け）
 
 ## ✅ 完了タスク
-- [x] Apple Developer Program ¥12,980支払い完了（2026/03/24）Algo K.K. / 登録ID: 4N2MY837MF
-- [x] algo-keiri PDFテスト完了 + レイアウト改善 + IPAゴシック導入（2026/03/24）
+- [x] 6アプリ Agent Teams 3軸チェック全完走（2026/03/24）無料/課金線引き・Apple審査・改良。王様の耳/IBCA/koyomi/tonkou/meguri/Golf全修正+push済み
+- [x] ibca.jp 本番公開 Phase2.5→4完走（2026/03/24）Agent Teams 41件分析+統合設計書・級名称統一・CTA改善・grade2テキスト導線・sitemap/robots.txt・スマホ表示修正・リンク切れ全修正
+- [x] ibca-app Apple審査対応+UX改良14件（2026/03/24）PP統一・App Privacy・confetti・合格証保存・弱点分析・中断再開・Instagramシェア
 - [x] meguri-app 御利益マッチング（55カテゴリ）+ 参拝チェックイン&SNSシェア実装（2026/03/24）
-- [x] jinja-db バッチ19完了（229社到達）（2026/03/24）
+- [x] Apple Developer Program ¥12,980支払い完了（2026/03/24）Algo K.K. / 登録ID: 4N2MY837MF / アクティベーション待ち
+- [x] algo-keiri PDFテスト完了 + レイアウト改善 + IPAゴシック導入（2026/03/24）4商品×月4回テスト正常
+- [x] jinja-db バッチ19完了 +10社（229社到達）（2026/03/24）
 - [x] algo-inc.com 復旧完了（2026/02/23）
 - [x] algo-inc-web SEO・信頼性・技術基盤一括整備（2026/03/06）
 - [x] algo-inc-web CONTACTページ問い合わせフォーム新規作成（2026/03/08）
@@ -143,7 +158,6 @@
 - [x] 3リポジトリURL統一（kobore-log→ousama-no-mimi, koyomi_new→koyomi, tonkou_new→確認済み）（2026/03/23）
 - [x] ibca-website NEWS追加・unpkgバージョン固定（302リダイレクト修正）（2026/03/23）
 - [x] ibca-website ステージング環境構築+全面リニューアル（2026/03/23）staging→algo-innovation.com/ibca-staging/ KATE風ダークテーマ・L1-L8テンプレート・全ページPHP化・講師プロフィール復元・ナビプルダウン化・毛髪構造解析士検定新設
-- [x] ibca.jp 本番公開 Phase2.5→4完走（2026/03/24）staging→mainマージ・Agent Teams 41件分析+統合設計書・級名称統一（BRONZE/SILVER/GOLD/MASTER）全ページ・CTA改善+title最適化+プロ向けコピー・grade2テキスト導線ページ新規作成・sitemap/robots.txt+noindex削除+Search Console送信・スマホ表示修正（.user.ini/fade-in/ハンバーガーCSS）・ibca-app store-assets URL修正6件・ibca-app×ibca.jp整合性修正7件・Apple審査前リンク切れ全修正+ヘッダー/フッター統一
 - [x] GitHubトークンローテーション gh auth login（2026/03/16）
 - [x] 全サイトメールアドレス変更（2026/03/20）AlgoCosme→laboskin@ / algo-inc→devapp@ / stemcell→celllab@ / meguri特商法→devapp@　計33箇所
 - [x] さくらサーバーメールアカウント3件作成（devapp@algo-inc.com, laboskin@algo-cosme.com, celllab@algo-cosme.com）
@@ -195,6 +209,12 @@
 - 03/22: Golf Metrics OS 企画書v1作成＋MVP2-3一気に実装完了。振り返りマップ（航空写真+GPS）、飛距離Haversine計算、スコア推移グラフ（Swift Charts）、独り言メモ、FREE/PRO 2層課金（RevenueCat）。「アドバイスしない。事実だけを並べる」哲学確定
 - 03/22: 全プロジェクト企画書出揃い：王様の耳v3、meguri v1、Golf Metrics OS v1。共通哲学「アプリは返事しない。気づきはユーザーのもの」
 - 03/22: APIキー衝突問題を解消（.zshrc/.zprofile/.bash_profileからANTHROPIC_API_KEY削除。手代木2号使用時のみexportする運用に）
+- 03/24: Apple Developer Program ¥12,980支払い完了。アクティベーション待ち（数時間〜48時間）
+- 03/24: 6アプリ全てAgent Teams 3軸チェック（無料/課金線引き・Apple審査・改良）完走。王様の耳/IBCA/koyomi/tonkou/meguri/Golf全修正+push済み
+- 03/24: 課金モデル確定：IBCA完全無料、koyomi/tonkou AdMob広告、王様の耳¥300/月、meguri¥330/月、Golf¥480/月
+- 03/24: algo-keiri PDF帳票（納品書・請求書）テスト完了。日本語フォント解決。4商品×月4回テスト正常
+- 03/24: Design OSはPDF座標調整には不向き。PDF帳票は座標直接指定方針に確定
+- 03/24: jinja-db 229社到達（バッチ19: 水無・伊奈波・多度大社・猿田彦・二見興玉・石上神宮・橿原神宮・大和・談山・廣瀬大社）
 - 03/21: Claude in Chromeによる神社自動登録フロー実証成功。Gemini調査→GitHub inbox commit→process-inbox.sh処理。💾マーカー問題・BSD sed問題を修正済み
 - 03/21: kobore-log 1日でPhase0完成→Phase1突入。PWA版完成→音声入力→「王様の耳」命名→週次レポート「封をあける」→Expo+RN移行→CaptureScreen RN実装→SDK54ダウングレード→EAS CLI準備。Apple Developer審査待ち
 
@@ -216,9 +236,9 @@
 ## ■ 数値チェックリスト
 > task-master更新時に実データと照合すること
 
-| プロジェクト | 指標 | 確認方法 | 現在値（2026/03/22） |
+| プロジェクト | 指標 | 確認方法 | 現在値（2026/03/24） |
 |---|---|---|---|
-| jinja-db | 神社数（JSON） | `python3 -c "import json; print(len(json.load(open('shrines.json'))))"` | 194件 |
+| jinja-db | 神社数（JSON） | `python3 -c "import json; print(len(json.load(open('shrines.json'))))"` | 229件 |
 | jinja-db | 神社数（mdファイル） | `ls shrines/*.md \| wc -l` | 167件 |
 | AlgoCosme | 製品数 | `seed.sql`のINSERT行カウント | 22製品 |
 | kippo-tabi | ページ数 | `find . -name "*.html" \| wc -l` | 137ページ |
