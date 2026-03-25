@@ -142,6 +142,7 @@
 - [ ] LINE連携サブスクリプション販売アプリ（美容サロン向け）
 
 ## ✅ 完了タスク
+- [x] salon-project リポジトリ作成＋全ドキュメント格納（2026/03/25）全体設計図・10事業マニュアル・暗黙知マニュアル・統合マニュアル・3AIリサーチ（Claude/Gemini/GPT/統合）・SALON BOARDシステム調査・予約システム開発プラン・吉岡くん向けレポート・柳さんヒアリング結果・CLAUDE.md（Agent Teams並走+多業種対応）・Week 0法務3点セット（プラポリ・デモ利用規約・HPB併用導入シナリオ）
 - [x] algo-inc-web CLAUDE.md作成＋6アプリLP（9セクション統一テンプレート）作成・デプロイ（2026/03/24）
 - [x] algo-inc-web Apple審査用下層ページ（privacy/support/terms）5アプリ分作成・デプロイ（2026/03/24）
 - [x] ibca.jp/app/ 配下にprivacy/support/terms作成・デプロイ（2026/03/24）
