@@ -127,10 +127,17 @@
 ### 🟡 進行中（サロン向け事業）
 - [ ] サロン向け事業（salon-project）
   - リポジトリ: sakumahideyuki-3939/salon-project
+  - デモURL（お客さん側）: https://algo-innovation.com/salon-demo/public/index.php
+  - デモURL（管理画面）: https://algo-innovation.com/salon-demo/public/admin/login.php（admin / demo1234）
   - [x] Week 0: 法務3点セット（プラポリ・デモ利用規約・HPB併用導入シナリオ）
-  - [x] Week 1: 基盤＋お客さん側予約フロー完成（4画面・空き枠ロジック・LINE通知・PHPUnit11テストPASS）
-  - [ ] Week 2: 管理画面＋リピーター検索＋リマインド＋最終セキュリティ
-  - [ ] 吉岡くんへレポート送付 → 反応待ち
+  - [x] Week 1: 基盤＋お客さん側予約フロー完成（34ファイル / 5,175行 / PHPUnit11テストPASS）
+  - [x] Week 2: 管理画面＋セキュリティ（29ファイル / 3,316行 / Gatekeeper監査11項目PASS）
+  - [x] Week 3: デモ環境デプロイ（さくらサーバー / DB構築 / 本番動作確認OK）
+  - [x] 吉岡くんGitHub招待送付（yuira-bcf）+ デモURL送付済み
+  - [x] デプロイパス修正（base_path動的化 / 29ファイル修正）
+  - [ ] SSHテスト用ファイル削除（test2.php, test4.php等）
+  - [ ] Week 4: 柳さんにデモ提示 → フィードバック反映
+  - [ ] 吉岡くんからのフィードバック待ち
   - [ ] 柳さん追加ヒアリング（次回会った時）
     - 出勤管理の具体的に便利な点
     - スタッフ間やり取り機能はLINEと何が違うか
@@ -145,6 +152,7 @@
 - [ ] LINE連携サブスクリプション販売アプリ（美容サロン向け）
 
 ## ✅ 完了タスク
+- [x] salon-project Week 0-3完走＋デモ環境デプロイ＋吉岡くん招待済み（2026/03/25）Week2: 管理画面+Gatekeeper監査11項目PASS、Week3: さくらサーバーデプロイ+DB構築+本番動作確認OK、デプロイパス修正（base_path動的化/29ファイル修正）、吉岡くんGitHub招待（yuira-bcf）+デモURL送付済み
 - [x] salon-project リポジトリ作成＋全ドキュメント格納（2026/03/25）全体設計図・10事業マニュアル・暗黙知マニュアル・統合マニュアル・3AIリサーチ（Claude/Gemini/GPT/統合）・SALON BOARDシステム調査・予約システム開発プラン・吉岡くん向けレポート・柳さんヒアリング結果・CLAUDE.md（Agent Teams並走+多業種対応）・Week 0法務3点セット（プラポリ・デモ利用規約・HPB併用導入シナリオ）
 - [x] algo-inc-web CLAUDE.md作成＋6アプリLP（9セクション統一テンプレート）作成・デプロイ（2026/03/24）
 - [x] algo-inc-web Apple審査用下層ページ（privacy/support/terms）5アプリ分作成・デプロイ（2026/03/24）
