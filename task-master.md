@@ -1,12 +1,12 @@
 # Algo OS タスクマスター
-> 最終更新: 2026/03/26
+> 最終更新: 2026/03/29
 
 ## アクティブタスク
 
 ### 🔴 最優先
-- [ ] Apple Developer Programアクティベーション確認 → 6アプリ一斉ビルド
-  - ¥12,980支払い完了（2026/03/24）→ 反映待ち
-  - 確認手順: ① Gmailで「Apple Developer Programへようこそ」メール確認 ② https://developer.apple.com/account/ でActive確認
+- [x] Apple Developer Programアクティベーション確認 → 6アプリ一斉ビルド
+  - ¥12,980支払い完了（2026/03/24）→ ✅ アクティベーション完了（2026/03/24確認）
+  - Gmail「Apple Developer Programへようこそ」受信済み（3/24）/ App Store Connect開通（3/24）/ Paid Applications Agreement同意（3/25）/ TestFlight KARUTEPro招待送信済み（3/27）
   - アクティブになったら即実行：6アプリEAS Build / Xcode Build → TestFlight → App Store申請
     - [ ] 王様の耳: EAS Build → TestFlight → App Store申請
     - [ ] IBCA公式アプリ: EAS Build → App Store申請
@@ -14,7 +14,7 @@
     - [ ] tonkou: iOSビルド → App Store申請
     - [ ] meguri-app: iOSビルド → App Store申請
     - [ ] Golf Metrics OS: iOSビルド → App Store申請
-- [ ] Apple Developerアカウントの状態確認（アクティベーション済みか）
+- [x] Apple Developerアカウントの状態確認（✅ 確認済み 2026/03/29 Cowork自動チェック）
 - [ ] koyomi（暦）から最初に申請（完全無料・サブスク不要で最もシンプル）
 - [ ] Xcodeビルド → App Store Connectアップロード
 - [ ] App Store Connect情報入力（スクリーンショット・説明文・キーワード）
